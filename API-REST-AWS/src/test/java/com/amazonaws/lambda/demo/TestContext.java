@@ -12,9 +12,6 @@ import com.amazonaws.services.lambda.runtime.LambdaLogger;
  */
 public class TestContext implements Context {
 
-
-    
-
     private String awsRequestId = "EXAMPLE";
     private ClientContext clientContext;
     private String functionName = "EXAMPLE";
